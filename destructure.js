@@ -37,10 +37,11 @@ const person = {
     age: 47,
     height: '6 feet'
 }
-const passwod = '12345';
+const password = '12345';
 const { password: hashedPassword } = person;
 
 console.log(password);
-console.log(hashedpassword);
+console.log(hashedPassword);
 //results
-//
+//console.log(password) //log: '12345'
+//console.log(hashedPassword) //undefined

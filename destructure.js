@@ -74,4 +74,7 @@ console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
 //results
-//c
+//console.log(key) //log: value
+//console.log(secondKey) //log:  [1, 5, 1, 8, 3, 3]
+//console.log(secondKey[0]) //log: 1 
+//console.log(willThisWork) //log: 5, went into the array and got the second value

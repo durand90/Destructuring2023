@@ -14,6 +14,7 @@ console.log(otherRandomCar);
 */
 
 
+/*
 //2
 const employee = {
     name: 'elon',
@@ -25,5 +26,21 @@ const { name: otherName } = employee;
 console.log(name);
 console.log(otherName);
 //results
-//console.log(name)  //log: elon
-//console.log(otherName) //log: elon
+//console.log(name)  //log: reference error, name was never defined.
+//console.log(otherName) // should log elon if comment out console.log(name)
+*/
+
+
+//3
+const person = {
+    name: 'Phil Smith',
+    age: 47,
+    height: '6 feet'
+}
+const passwod = '12345';
+const { password: hashedPassword } = person;
+
+console.log(password);
+console.log(hashedpassword);
+//results
+//

@@ -30,7 +30,7 @@ console.log(otherName);
 //console.log(otherName) // should log elon if comment out console.log(name)
 */
 
-
+/*
 //3
 const person = {
     name: 'Phil Smith',
@@ -45,3 +45,19 @@ console.log(hashedPassword);
 //results
 //console.log(password) //log: '12345'
 //console.log(hashedPassword) //undefined
+*/
+
+/*
+//4
+const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
+const [, first] = numbers;
+const [,,, second] = numbers;
+const [,,,,,,,, third] = numbers;
+
+console.log(first == second);
+console.log(first == third);
+//results
+//console.log(first == second) //log: true
+//console.log(first == third) //log: false
+*/
+
